@@ -2,13 +2,14 @@ programa
 {
    funcao inicio()
    {
-      real n1, n2, n3, media
+      inteiro x, y
 
-      n1 = 7
-      n2 = 8
-      n3 = 6
-      media = (n1 + n2 + n3) / 3
+      escreva("Digite X: ")
+      leia(x)
 
-      escreva("A média é: ", media, "\n")
+      escreva("Digite Y: ")
+      leia(y)
+
+      escreva("Resultado: ", x * y, "\n")
    }
 }
