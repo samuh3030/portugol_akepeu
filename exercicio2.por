@@ -1,14 +1,12 @@
 programa
 {
-    funcao inicio()
-    {
-        inteiro a, b, soma
+   funcao inicio()
+   {
+      inteiro numero
 
-        a = 5
-        b = 3
-        soma = a + b
+      escreva("Digite um número: ")
+      leia(numero)
 
-        escreva("A soma é: ", soma, "\n")
-    }
+      escreva("O antecessor é: ", numero - 1, "\n")
+   }
 }
-
